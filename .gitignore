@@ -1,2 +1,3 @@
 vendor/
 .env
+config/autoload/web/view.local.php

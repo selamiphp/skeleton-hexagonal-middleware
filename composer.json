@@ -1,5 +1,5 @@
 {
-    "name": "selami/skeleton",
+    "name": "selami/skeleton-hexagonal-middleware",
     "description": "Selami Skeleton App",
     "type": "project",
     "license": "MIT",
@@ -64,10 +64,7 @@
             "composer dump-autoload -a"
         ],
         "post-create-project-cmd": [
-            "cp config/autoload/local.php.dist config/autoload/local.php",
-            "cp config/autoload/view.local.php.dist config/autoload/view.local.php",
-            "cp config/autoload/commands.local.php.dist config/autoload/commands.local.php",
-            "cp config/autoload/dependencies.local.php.dist config/autoload/dependencies.local.php",
+            "cp config/autoload/web/view.local.php.dist config/autoload/web/view.local.php",
             "echo 'SELAMI_ENVIRONMENT=dev' >> .env",
             "composer dump-autoload -a"
         ],
