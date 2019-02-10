@@ -9,7 +9,6 @@ use Psr\Http\Message\ServerRequestInterface;
 
 abstract class BaseController
 {
-
     /**
      * @var array
      */
