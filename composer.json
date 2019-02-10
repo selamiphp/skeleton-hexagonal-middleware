@@ -44,6 +44,7 @@
         "symfony/process": "^4.2",
         "prooph/common": "^4.3",
         "prooph/service-bus": "^6.2",
+        "react/promise": "^2.7"
     },
     "require-dev": {
         "roave/security-advisories": "dev-master",
