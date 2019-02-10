@@ -41,7 +41,9 @@
         "vlucas/phpdotenv": "^2.5",
         "selami/console": "^1.0",
         "symfony/console": "^4.2",
-        "symfony/process": "^4.2"
+        "symfony/process": "^4.2",
+        "prooph/common": "^4.3",
+        "prooph/service-bus": "^6.2",
     },
     "require-dev": {
         "roave/security-advisories": "dev-master",
