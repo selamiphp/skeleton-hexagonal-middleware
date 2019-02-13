@@ -59,8 +59,7 @@
         "preferred-install": {
             "*": "dist"
         },
-        "optimize-autoloader": true,
-        "classmap-authoritative": true
+        "optimize-autoloader": true
     },
     "scripts": {
         "post-update-cmd": [
